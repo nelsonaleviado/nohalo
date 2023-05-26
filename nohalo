@@ -1,1 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Video Embed</title>
+    <style>
+      body, html {
+        height: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .content {
+        flex-grow: 1;
+      }
+      
+      video {
+        width: 100%;
+        max-width: 640px;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <!-- Other content or elements -->
+    </div>
+    
+    <video controls>
+      <source src="1.mp4" type="video/mp4">
+      <!-- Add additional <source> elements for other video formats -->
+      Your browser does not support the video tag.
+    </video>
+  </body>
+</html>
 
